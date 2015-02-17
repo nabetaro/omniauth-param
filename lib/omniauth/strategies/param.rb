@@ -4,7 +4,6 @@ module OmniAuth
   module Strategies
     class Param
       include OmniAuth::Strategy
-      option :auty_key
 
       def request_phase
         redirect callback_url
